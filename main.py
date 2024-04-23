@@ -43,7 +43,7 @@ while True:
         # 数据结构, [{id: xxx, poo: xxx , url: xxx, sla: 0.9}]
         # 然后for 循环 获取每个item的url 把sla 输入进去, 小于0.9的 加入 warning list
         time1 = datetime.datetime.now()
-        pools_code = [ '1907']
+        pools_code = ['1987']
         all_scanner_nodes = []
         for pool_code in pools_code:
             for i in getScanNodesByPoolCode(pool_code):
